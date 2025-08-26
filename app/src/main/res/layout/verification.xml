@@ -6,18 +6,35 @@
     android:layout_height="match_parent"
     android:background="#F8F7FBF9">
 
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
     <TextView
         android:id="@+id/textView63"
         android:layout_width="327dp"
         android:layout_height="34dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="16dp"
         android:text="By continuing, you agree to our Terms of Services and Privacy Policy"
         android:textAlignment="center"
         android:textColor="#D3AE37"
         android:textColorHighlight="#D3AE36"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981"
         tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck,VisualLintOverlap" />
 
     <TextView
@@ -26,10 +43,12 @@
         android:layout_height="wrap_content"
         android:text="_____________________________________________________"
         android:textColor="#0277BD"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds"
-        tools:layout_editor_absoluteY="842dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView62"
@@ -38,11 +57,13 @@
         android:text="Wait 00:59"
         android:textColor="#555555"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="715dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView61"
@@ -51,11 +72,13 @@
         android:text="Resend Code"
         android:textColor="#AE555555"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView60"
@@ -64,11 +87,13 @@
         android:text="Edit mobile number or email"
         android:textColor="#555555"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="715dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView59"
@@ -78,15 +103,18 @@
         android:textColor="#C88A2F"
         android:textSize="16sp"
         android:textStyle="bold"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap" />
 
     <Button
         android:id="@+id/button28"
         android:layout_width="339dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="260dp"
         android:backgroundTint="#B87A18"
         android:insetLeft="0dp"
         android:insetTop="2dp"
@@ -96,7 +124,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67"
         tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize" />
 
     <Button
@@ -105,23 +136,15 @@
         android:layout_height="45dp"
         android:background="#12FFFFFF"
         android:backgroundTint="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
         app:strokeColor="#5F040404"
         app:strokeWidth="1sp"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintOverlap"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="498dp" />
-
-    <Button
-        android:id="@+id/button26"
-        android:layout_width="58dp"
-        android:layout_height="45dp"
-        android:background="#12FFFFFF"
-        android:backgroundTint="#F4EFEF"
-        app:strokeColor="#5F040404"
-        app:strokeWidth="1sp"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintOverlap" />
 
     <Button
         android:id="@+id/button25"
@@ -129,13 +152,15 @@
         android:layout_height="45dp"
         android:background="#12FFFFFF"
         android:backgroundTint="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
         app:strokeColor="#5F040404"
         app:strokeWidth="1sp"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button24"
@@ -143,11 +168,15 @@
         android:layout_height="45dp"
         android:background="#12FFFFFF"
         android:backgroundTint="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
         app:strokeColor="#5F040404"
         app:strokeWidth="1sp"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView58"
@@ -156,11 +185,12 @@
         android:text="We’ve sent a verification code to +94 7******* "
         android:textColor="#555555"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="430dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView57"
@@ -171,11 +201,14 @@
         android:textAlignment="viewStart"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
         app:layout_wrapBehaviorInParent="skipped"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap"
-        tools:layout_editor_absoluteY="392dp" />
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView54"
@@ -186,11 +219,13 @@
         android:textColor="#121111"
         android:textSize="28sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView55"
@@ -199,20 +234,24 @@
         android:text="Verify your whatsapp code"
         android:textColor="#555555"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
         app:srcCompat="@drawable/glowify_brand_logo_design_2"
-        tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView56"
@@ -223,11 +262,13 @@
         android:text="Register"
         android:textColor="#373030"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextSizeCheck,TextViewEdits"
-        tools:layout_editor_absoluteY="64dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextSizeCheck,TextViewEdits" />
 
     <Button
         android:id="@+id/button23"
@@ -235,22 +276,29 @@
         android:layout_height="45dp"
         android:background="#12FFFFFF"
         android:backgroundTint="#F4EFEF"
-        app:strokeColor="#5F040404"
-        app:strokeWidth="1sp"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="498dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView58"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
+        app:strokeColor="#040404"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
         android:backgroundTint="#F8F7FBF9"
         android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
         app:srcCompat="?attr/actionModeCloseDrawable"
-        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteY="59dp" />
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

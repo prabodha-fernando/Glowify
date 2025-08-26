@@ -26,31 +26,36 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F8F7FBF9">
+            android:background="#F8F7FBF9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottonNavigationView"
                 android:layout_width="368dp"
                 android:layout_height="85dp"
-                android:layout_marginBottom="28dp"
                 android:background="#3FC591A3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.488"
+                app:layout_constraintHorizontal_bias="0.627"
                 app:layout_constraintStart_toStartOf="parent"
-                app:menu="@menu/botton_nav_menu" >
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.98"
+                app:menu="@menu/botton_nav_menu">
 
                 <com.google.android.material.bottomnavigation.BottomNavigationView
                     android:id="@+id/bottomNavigation"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@android:color/transparent"
                     app:labelVisibilityMode="labeled"
                     app:menu="@menu/bottom_menu"
                     tools:ignore="VisualLintBottomNav">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="356dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
                         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -68,7 +73,7 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="345dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -82,9 +87,13 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#F8F7FBF9"
                 android:src="@drawable/outline_contact_support_24"
-                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                tools:layout_editor_absoluteX="342dp"
-                tools:layout_editor_absoluteY="59dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.939"
+                app:layout_constraintStart_toStartOf="@+id/frameLayout8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <TextView
                 android:id="@+id/textView66"
@@ -96,11 +105,13 @@
                 android:textAlignment="center"
                 android:textColor="#373030"
                 android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck"
-                tools:layout_editor_absoluteY="64dp" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
 
             <ImageButton
                 android:id="@+id/imageButton20"
@@ -108,11 +119,16 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#F8F7FBF9"
                 android:src="@drawable/outline_arrow_left_alt_24"
-                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                tools:layout_editor_absoluteX="31dp"
-                tools:layout_editor_absoluteY="57dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.067"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <FrameLayout
+                android:id="@+id/frameLayout8"
                 android:layout_width="411dp"
                 android:layout_height="646dp"
                 android:background="#1FFFC107"
@@ -128,16 +144,17 @@
                         android:id="@+id/textView75"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
                         android:allowUndo="true"
                         android:text="Moisturizes"
                         android:textColor="#121111"
                         android:textSize="24sp"
                         android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.101"
+                        app:layout_constraintHorizontal_bias="0.105"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.026"
                         tools:ignore="HardcodedText,MissingConstraints" />
 
                     <FrameLayout
@@ -158,21 +175,27 @@
                                 android:layout_height="37dp"
                                 android:backgroundTint="#B87A18"
                                 android:text="Buy"
-                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
-                                tools:layout_editor_absoluteX="93dp"
-                                tools:layout_editor_absoluteY="220dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.948"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.973"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                             <TextView
                                 android:id="@+id/textView76"
-                                android:layout_width="160dp"
-                                android:layout_height="66dp"
+                                android:layout_width="153dp"
+                                android:layout_height="71dp"
                                 android:text="Cetaphil Daily Facial Moisturizer for All Skins with Hyaluronic Acid Rs 7,990 Rs  8789"
                                 android:textSize="14sp"
                                 android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck"
-                                tools:layout_editor_absoluteY="153dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.785"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
 
                             <ImageView
                                 android:id="@+id/imageView23"
@@ -180,10 +203,12 @@
                                 android:layout_height="151dp"
                                 android:background="#0DFFC107"
                                 android:src="@drawable/cetaphil_daily_facial_moisturizer_oil_free_for_all_skins_with_hyaluronic_acid_3_fl_oz_b4f2e59b_ec05_42cd_935d_2b53b37b206c_a320705773257493b3780ee91e960c4e"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="ContentDescription,ImageContrastCheck"
-                                tools:layout_editor_absoluteY="2dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.018"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
 
                             <ImageButton
                                 android:id="@+id/imageButton19"
@@ -191,9 +216,13 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#C0FFFFFF"
                                 android:src="@drawable/ic_baseline_shopping_cart_24"
-                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="116dp"
-                                tools:layout_editor_absoluteY="3dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                             <TextView
                                 android:id="@+id/textView70"
@@ -201,9 +230,13 @@
                                 android:layout_height="wrap_content"
                                 android:background="#80FF0909"
                                 android:text="10% OFF"
-                                tools:ignore="HardcodedText,TextContrastCheck"
-                                tools:layout_editor_absoluteX="2dp"
-                                tools:layout_editor_absoluteY="7dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.043"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.065"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
 
                             <TextView
                                 android:id="@+id/textView84"
@@ -213,18 +246,26 @@
                                 android:textColor="#4CAF50"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
-                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck"
-                                tools:layout_editor_absoluteX="6dp"
-                                tools:layout_editor_absoluteY="229dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/button32"
+                                app:layout_constraintHorizontal_bias="0.074"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.933"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
 
                             <TextView
                                 android:id="@+id/textView83"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="________"
-                                tools:ignore="HardcodedText"
-                                tools:layout_editor_absoluteX="44dp"
-                                tools:layout_editor_absoluteY="195dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.423"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/imageView23"
+                                app:layout_constraintVertical_bias="0.792"
+                                tools:ignore="HardcodedText" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </FrameLayout>
@@ -239,7 +280,11 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
                                 android:id="@+id/textView86"
@@ -249,9 +294,13 @@
                                 android:textColor="#4CAF50"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
-                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck"
-                                tools:layout_editor_absoluteX="6dp"
-                                tools:layout_editor_absoluteY="229dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.053"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.933"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
 
                             <TextView
                                 android:id="@+id/textView77"
@@ -260,11 +309,13 @@
                                 android:text="AVEENO® Daily Moisturizing Face Cream 141 g Rs 7,590"
                                 android:textSize="14sp"
                                 android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.545"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="DuplicateIds,HardcodedText"
-                                tools:layout_editor_absoluteY="168dp" />
+                                app:layout_constraintTop_toTopOf="@+id/imageView24"
+                                app:layout_constraintVertical_bias="0.8"
+                                tools:ignore="DuplicateIds,HardcodedText" />
 
                             <Button
                                 android:id="@+id/button35"
@@ -272,9 +323,13 @@
                                 android:layout_height="37dp"
                                 android:backgroundTint="#B87A18"
                                 android:text="Buy"
-                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="93dp"
-                                tools:layout_editor_absoluteY="220dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.836"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.995"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
 
                             <ImageButton
                                 android:id="@+id/imageButton22"
@@ -282,9 +337,13 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#C0FFFFFF"
                                 android:src="@drawable/ic_baseline_shopping_cart_24"
-                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="113dp"
-                                tools:layout_editor_absoluteY="1dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.959"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                             <ImageView
                                 android:id="@+id/imageView24"
@@ -292,10 +351,12 @@
                                 android:layout_height="151dp"
                                 android:background="#0DFFC107"
                                 android:src="@drawable/ave_062600465054_ca_daily_moisturizing_face_cream_141g_994495318_00000_fr_ca"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="ContentDescription"
-                                tools:layout_editor_absoluteY="1dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -310,7 +371,12 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
                                 android:id="@+id/textView77"
@@ -319,11 +385,13 @@
                                 android:text="La Roche-Posay Matte Face Moisturizer Rs 6,990"
                                 android:textSize="14sp"
                                 android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.545"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck"
-                                tools:layout_editor_absoluteY="168dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.8"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
 
                             <Button
                                 android:id="@+id/button35"
@@ -331,9 +399,13 @@
                                 android:layout_height="37dp"
                                 android:backgroundTint="#B87A18"
                                 android:text="Buy"
-                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck"
-                                tools:layout_editor_absoluteX="92dp"
-                                tools:layout_editor_absoluteY="220dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.877"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.977"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
 
                             <TextView
                                 android:id="@+id/textView79"
@@ -343,20 +415,26 @@
                                 android:textColor="#4CAF50"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
-                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck"
-                                tools:layout_editor_absoluteX="9dp"
-                                tools:layout_editor_absoluteY="229dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.107"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.933"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
 
                             <ImageView
                                 android:id="@+id/imageView25"
                                 android:layout_width="146dp"
                                 android:layout_height="151dp"
-                                android:layout_marginStart="12dp"
                                 android:background="#0DFFC107"
                                 android:src="@drawable/_1646303f15cd076394958b941e3c3e6f5"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="ContentDescription,ImageContrastCheck"
-                                tools:layout_editor_absoluteY="2dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.018"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
 
                             <ImageButton
                                 android:id="@+id/imageButton22"
@@ -364,9 +442,13 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#C0FFFFFF"
                                 android:src="@drawable/ic_baseline_shopping_cart_24"
-                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="116dp"
-                                tools:layout_editor_absoluteY="2dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.009"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -380,7 +462,11 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
                                 android:id="@+id/textView77"
@@ -389,11 +475,13 @@
                                 android:text="Mamaearth Rice Gel Face Moisturizer With Rice Water &amp; Niacinamide 100ml  Rs 5,590"
                                 android:textSize="14sp"
                                 android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.6"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck"
-                                tools:layout_editor_absoluteY="154dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.785"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
 
                             <Button
                                 android:id="@+id/button35"
@@ -401,9 +489,13 @@
                                 android:layout_height="37dp"
                                 android:backgroundTint="#B87A18"
                                 android:text="Buy"
-                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="93dp"
-                                tools:layout_editor_absoluteY="220dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.877"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.977"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
 
                             <TextView
                                 android:id="@+id/textView79"
@@ -413,20 +505,26 @@
                                 android:textColor="#4CAF50"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
-                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck"
-                                tools:layout_editor_absoluteX="9dp"
-                                tools:layout_editor_absoluteY="229dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.107"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.933"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
 
                             <ImageView
                                 android:id="@+id/imageView26"
                                 android:layout_width="146dp"
                                 android:layout_height="151dp"
-                                android:layout_marginStart="12dp"
                                 android:background="#0DFFC107"
                                 android:src="@drawable/_636573e96453b2f8b38244915f5787c_jpg_720x720q80"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="ContentDescription"
-                                tools:layout_editor_absoluteY="2dp" />
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription" />
 
                             <ImageButton
                                 android:id="@+id/imageButton22"
@@ -434,9 +532,13 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#C0FFFFFF"
                                 android:src="@drawable/ic_baseline_shopping_cart_24"
-                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-                                tools:layout_editor_absoluteX="115dp"
-                                tools:layout_editor_absoluteY="2dp" />
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>

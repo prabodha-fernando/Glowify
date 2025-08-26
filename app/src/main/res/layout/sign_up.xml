@@ -15,21 +15,25 @@
         android:text="Register"
         android:textColor="#373030"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck"
-        tools:layout_editor_absoluteY="64dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077"
+        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
         app:srcCompat="@drawable/glowify_brand_logo_design_2"
-        tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView17"
@@ -38,11 +42,12 @@
         android:text="Please enter your details to register"
         android:textColor="#555555"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView16"
@@ -53,23 +58,29 @@
         android:textColor="#121111"
         android:textSize="28sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="83dp"
+        android:layout_height="28dp"
         android:background="#FFFFFF"
         android:text="First Name"
         android:textColor="#555555"
         android:textSize="16sp"
-        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="377dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView20"
@@ -79,9 +90,13 @@
         android:text="Email Address"
         android:textColor="#555555"
         android:textSize="16sp"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/button10"
@@ -94,11 +109,15 @@
         android:textAlignment="textStart"
         android:textColor="#703A3737"
         android:textColorLink="#3C3636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
         app:strokeColor="#44373131"
         app:strokeWidth="1dp"
-        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextContrastCheck,TextViewEdits,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="686dp" />
+        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextContrastCheck,TextViewEdits,VisualLintButtonSize" />
 
     <TextView
         android:id="@+id/textView22"
@@ -108,9 +127,13 @@
         android:text="Mobile Number"
         android:textColor="#555555"
         android:textSize="16sp"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="660dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView24"
@@ -119,19 +142,26 @@
         android:text="Please enter a valid mobile number (e.g., 7xxxxxxxx) "
         android:textColor="#9D332C2C"
         android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
-        tools:layout_editor_absoluteY="735dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+94 |"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="701dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
@@ -142,17 +172,20 @@
         android:textAlignment="textStart"
         android:textColor="#703A3737"
         android:textColorLink="#3C3636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564"
         app:strokeColor="#44373131"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,VisualLintOverlap"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="488dp" />
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,VisualLintOverlap" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="254dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="88dp"
         android:backgroundTint="#B87A18"
         android:insetLeft="0dp"
         android:insetTop="2dp"
@@ -164,6 +197,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887"
         tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize,DuplicateSpeakableTextCheck" />
 
     <TextView
@@ -173,11 +208,13 @@
         android:text="Already have an account?"
         android:textColor="#9D332C2C"
         android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds"
-        tools:layout_editor_absoluteY="826dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView27"
@@ -185,11 +222,13 @@
         android:layout_height="wrap_content"
         android:text="_____________________________________________________"
         android:textColor="#BFBDBD"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds,TextContrastCheck"
-        tools:layout_editor_absoluteY="846dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView26"
@@ -198,9 +237,13 @@
         android:text="Sign In"
         android:textColor="#C88A2F"
         android:textStyle="bold"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap,VisualLintBounds"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="827dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap,VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView19"
@@ -210,9 +253,13 @@
         android:text="Last Name"
         android:textColor="#555555"
         android:textSize="16sp"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="462dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView21"
@@ -221,45 +268,51 @@
         android:text="Please enter a valid email address."
         android:textColor="#9D332C2C"
         android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteY="627dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="336dp"
         android:layout_height="49dp"
-        android:layout_marginStart="32dp"
         android:autoLink="email"
         android:backgroundTint="#49FFFFFF"
         android:text="Enter your email address"
         android:textAlignment="textStart"
         android:textColor="#703A3737"
         android:textColorLink="#3C3636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
         app:strokeColor="#44373131"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize"
-        tools:layout_editor_absoluteY="578dp" />
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="336dp"
         android:layout_height="49dp"
-        android:layout_marginStart="32dp"
         android:backgroundTint="#49FFFFFF"
         android:text="Enter your first name"
         android:textAlignment="textStart"
         android:textColor="#703A3737"
         android:textColorLink="#3C3636"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.461"
         app:strokeColor="#44373131"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize" />
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

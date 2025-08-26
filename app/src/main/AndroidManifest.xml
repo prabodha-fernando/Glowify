@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Glowify">
+        <activity
+            android:name=".BodyCare"
+            android:exported="false" />
+        <activity
+            android:name=".Added_To_Card_3"
+            android:exported="false" />
+        <activity
+            android:name=".Added_To_Cart_2"
+            android:exported="false" />
+        <activity
+            android:name=".Added_To_Cart"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSummary"
+            android:exported="false" />
+        <activity
+            android:name=".MakeUp"
+            android:exported="false" />
+        <activity
+            android:name=".MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".Cleansers"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingScreen2"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_and_bottom"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_and_bottom"
+            tools:ignore="MissingClass" />
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7FBF9"
+    android:textAlignment="textEnd">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:autoLink="phone"
+        android:backgroundTint="#49FFFFFF"
+        android:phoneNumber="true"
+        android:text="       7xxxxxxxx"
+        android:textAlignment="textStart"
+        android:textColor="#703A3737"
+        android:textColorLink="#3C3636"
+        app:strokeColor="#44373131"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+94 |"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="562dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#C88A2F"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="743dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account?"
+        android:textColor="#9D332C2C"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="743dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#B87A18"
+        android:insetLeft="0dp"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:text="Sign In"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/glowify_brand_logo_design_2"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with your mobile number to continue"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Mobile Number"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter a valid mobile number (e.g., 7xxxxxxxx) "
+        android:textColor="#9D332C2C"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_____________________________________________________"
+        android:textColor="#BFBDBD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds"
+        tools:layout_editor_absoluteY="826dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="327dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="24dp"
+        android:text="By continuing, you agree to our Terms of Services and Privacy Policy"
+        android:textAlignment="center"
+        android:textColor="#D3AE37"
+        android:textColorHighlight="#D3AE36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

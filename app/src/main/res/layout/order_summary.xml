@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSummary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7FBF9">
+
+        <ImageButton
+            android:id="@+id/imageButton34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_contact_support_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.067"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView119"
+            android:layout_width="96dp"
+            android:layout_height="38dp"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="Glowify"
+            android:textAlignment="center"
+            android:textColor="#373030"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.073"
+            tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="407dp"
+            android:layout_height="349dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2"
+            tools:ignore="MissingConstraints,TextSizeCheck">
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0AFFEB3B"
+                android:text="____________________________________________________"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.483"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.862"
+                tools:ignore="HardcodedText,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="87dp"
+                android:layout_height="22dp"
+                android:text="Total"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.043"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.795"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="87dp"
+                android:layout_height="22dp"
+                android:text="Rs 6,990.00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.804"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="39dp"
+                android:layout_height="22dp"
+                android:text="FREE"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.959"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.737"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="77dp"
+                android:layout_height="24dp"
+                android:text="Rs 6,990.00 "
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.954"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.67"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="64dp"
+                android:layout_height="24dp"
+                android:text="Shipping"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.736"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="77dp"
+                android:layout_height="24dp"
+                android:text="Sub Total"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.67"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="90dp"
+                android:layout_height="46dp"
+                android:backgroundTint="#B87A18"
+                android:insetLeft="0dp"
+                android:insetTop="2dp"
+                android:insetBottom="2dp"
+                android:text="Apply"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.945"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize,TouchTargetSizeCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="269dp"
+                android:layout_height="46dp"
+                android:backgroundTint="#49FFFFFF"
+                android:text="Discount code or gift card"
+                android:textAlignment="textStart"
+                android:textColor="#703A3737"
+                android:textColorLink="#3C3636"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.115"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498"
+                app:strokeColor="#44373131"
+                app:strokeWidth="1dp"
+                tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="77dp"
+                android:layout_height="24dp"
+                android:text="Rs 6,990.00 "
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.243"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="166dp"
+                android:layout_height="55dp"
+                android:text="COSRX Salicylic Acid Daily Gentle Cleanser            150ml"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.302"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.268"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="49dp"
+                android:layout_height="62dp"
+                android:src="@drawable/beautyofjoseon_ginsengcleansingoil210m"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.044"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.275"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="374dp"
+                android:layout_height="24dp"
+                android:background="#0AFFEB3B"
+                android:text="____________________________________________________"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.132"
+                tools:ignore="HardcodedText,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="90dp"
+                android:layout_height="24dp"
+                android:text="Rs 6,990.00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.946"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.126"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Summary "
+                android:textColor="#C88A2F"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton35"
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:backgroundTint="#0EFFC107"
+                android:src="@drawable/outline_keyboard_arrow_up_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton39"
+                android:layout_width="17dp"
+                android:layout_height="19dp"
+                android:backgroundTint="#0EFFC107"
+                android:src="@drawable/outline_question_mark_24"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="73dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottonNavigationView"
+            android:layout_width="339dp"
+            android:layout_height="68dp"
+            android:background="#3FC591A3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/botton_nav_menu"
+            tools:layout_editor_absoluteY="812dp"
+            tools:ignore="MissingConstraints,VisualLintBounds" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/bottom_menu"
+                    tools:ignore="VisualLintBottomNav">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/pink"
+                            android:src="@drawable/outline_add_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:maxImageSize="40dp"
+                            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.bottomnavigation.BottomNavigationView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="407dp"
+            android:layout_height="243dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.688"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="346dp"
+                android:layout_height="37dp"
+                android:text="If you have any questions, feel free to contact us  anytime - we’re always happy to help! "
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.262"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.922"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="341dp"
+                android:layout_height="59dp"
+                android:text="Your order is now ready for shipment.  We’ll keep you updated as soon as your products  arrive in Sri Lanka."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.242"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.657"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="299dp"
+                android:layout_height="23dp"
+                android:text="Your order has been placed successfully."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.388"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.4"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="273dp"
+                android:layout_height="23dp"
+                android:text="Thank you for shopping with Glowify!"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.119"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton40"
+                android:layout_width="36dp"
+                android:layout_height="28dp"
+                android:backgroundTint="@android:color/white"
+                android:src="@drawable/outline_shopping_cart_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.043"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.074"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="106dp"
+                android:layout_height="26dp"
+                android:text="Order Placed!!!"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.205"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.073"
+                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton41"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:backgroundTint="#8BC34A"
+                android:src="@drawable/outline_select_check_box_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.041"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.392"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="123dp"
+            android:layout_height="46dp"
+            android:backgroundTint="#B87A18"
+            android:insetLeft="0dp"
+            android:insetTop="2dp"
+            android:insetBottom="2dp"
+            android:text="Go back"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.836"
+            tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

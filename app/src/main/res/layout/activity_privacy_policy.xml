@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy_Policy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7FBF9"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F7FBF9">
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="377dp"
+                android:layout_height="189dp"
+                android:background="#FFFFFF"
+                android:text=" 4. Orders and Payments                                                      Orders placed through the Glowify App are subject to acceptance by Glowify. Once an order is confirmed, you will receive an order confirmation email or notification within the app. Payments for orders must be made via the payment methods available in the App (credit card, debit card, digital wallets, etc.). Taxes and shipping fees may apply in addition to the price of the product."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.955"
+                tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintBounds" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="377dp"
+                android:layout_height="189dp"
+                android:background="#FFFFFF"
+                android:text="3. Account Registration                                                       To access certain features of the Glowify App, such as making purchases or earning rewards, users must create an account. You agree to: Provide accurate, current, and complete information during the registration process. Update your information promptly if any details change. Maintain the confidentiality of your account login information. You are responsible for all activities that occur under your account."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.673"
+                tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="377dp"
+                android:layout_height="155dp"
+                android:background="#FFFFFF"
+                android:text="2. User Eligibility                                                                  The Glowify App is available to individuals who are at least 18 years of age or are legally capable of entering into binding contracts under applicable law. Users must register an account with a valid email address and phone number to make purchases. Membership to our loyalty program is free of charge but requires users to accept these Terms."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.418"
+                tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="377dp"
+                android:layout_height="172dp"
+                android:background="#FFFFFF"
+                android:text="1. Introduction                                                                                          Welcome to Glowify! By using our mobile app (&quot;App&quot;) or our website, you agree to be bound by these Terms of Service (&quot;Terms&quot;). These Terms govern your access to and use of the Glowify e-commerce platform, which sells cosmetic products. Please read these Terms carefully before using the App. If you disagree with any part of the Terms, please do not use the App."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.169"
+                tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="239dp"
+                android:layout_height="35dp"
+                android:password="false"
+                android:phoneNumber="false"
+                android:text="Glowify Privacy Policy"
+                android:textColor="#373030"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.072"
+                tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton43"
+                android:layout_width="51dp"
+                android:layout_height="33dp"
+                android:backgroundTint="#F8F7FBF9"
+                android:src="@drawable/outline_cancel_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.955"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.073"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

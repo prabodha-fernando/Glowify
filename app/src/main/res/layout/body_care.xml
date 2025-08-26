@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BodyCare">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7FBF9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F7FBF9">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottonNavigationView"
+                android:layout_width="339dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:background="#3FC591A3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/botton_nav_menu" >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/bottomNavigation"
+                        android:layout_width="339dp"
+                        android:layout_height="68dp"
+                        android:background="@android:color/transparent"
+                        app:labelVisibilityMode="labeled"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:menu="@menu/bottom_menu"
+                        tools:ignore="MissingConstraints,VisualLintBottomNav">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fab2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/pink"
+                                android:src="@drawable/outline_add_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:maxImageSize="40dp"
+                                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F8F7FBF9"
+                android:src="@drawable/outline_contact_support_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.92"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.076"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="96dp"
+                android:layout_height="38dp"
+                android:password="false"
+                android:phoneNumber="false"
+                android:text="Glowify"
+                android:textAlignment="center"
+                android:textColor="#373030"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.076"
+                tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F8F7FBF9"
+                android:src="@drawable/outline_arrow_left_alt_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.074"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.071"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout5"
+                android:layout_width="411dp"
+                android:layout_height="646dp"
+                android:background="#1FFFC107"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:allowUndo="true"
+                        android:text="Body Care"
+                        android:textColor="#121111"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.026"
+                        tools:ignore="HardcodedText,MissingConstraints" />
+
+                    <FrameLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:background="#DAFFFFFF"
+                        tools:ignore="TextSizeCheck"
+                        tools:layout_editor_absoluteX="30dp"
+                        tools:layout_editor_absoluteY="69dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button34"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/imageView36"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.977"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView87"
+                                android:layout_width="154dp"
+                                android:layout_height="83dp"
+                                android:text="HAMIDI LUXURY OUD MUSK 3 PC GIFT SET - BODY SCRUB + BODY LOTION + SHOW          Rs 12,900  Rs 14190"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.437"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/imageView36"
+                                app:layout_constraintVertical_bias="0.761"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <ImageView
+                                android:id="@+id/imageView36"
+                                android:layout_width="144dp"
+                                android:layout_height="133dp"
+                                android:src="@drawable/body"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.024"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/textView88"
+                                android:layout_width="58dp"
+                                android:layout_height="23dp"
+                                android:text="_________"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.758"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.827"
+                                tools:ignore="HardcodedText" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton23"
+                                android:layout_width="37dp"
+                                android:layout_height="34dp"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/imageView36"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.013"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/textView93"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#80FF0909"
+                                android:text="10% OFF"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.06"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.065"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView94"
+                                android:layout_width="73dp"
+                                android:layout_height="32dp"
+                                android:text="In stock"
+                                android:textColor="#4CAF50"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.072"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.978"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </FrameLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="#EEFFFFFF"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:layout_editor_absoluteY="69dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="163dp"
+                                android:layout_height="65dp"
+                                android:text="Cerave Daily Moisturizing Lotion 355ml                             Rs 10,500"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.714"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/imageView37"
+                                app:layout_constraintVertical_bias="0.786"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.979"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.973"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imageView37"
+                                android:layout_width="159dp"
+                                android:layout_height="151dp"
+                                android:src="@drawable/cerave_daily_moisturizing_lotion_355ml"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.454"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.984"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/textView79"
+                                android:layout_width="65dp"
+                                android:layout_height="29dp"
+                                android:text="In stock"
+                                android:textColor="#4CAF50"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.047"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.974"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:layout_marginTop="356dp"
+                        android:background="#EEFFFFFF"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="30dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="159dp"
+                                android:layout_height="52dp"
+                                android:text="Care Dry Skin Repair Body Lotion With Pure Oat Ex – Sugari  420ml Rs 3,790  "
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.545"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.8"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.95"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.977"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView79"
+                                android:layout_width="63dp"
+                                android:layout_height="31dp"
+                                android:text="In stock"
+                                android:textColor="#4CAF50"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.07"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.979"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imageView38"
+                                android:layout_width="151dp"
+                                android:layout_height="153dp"
+                                android:src="@drawable/vaselinedryskinrepair400"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.526"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.018"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.009"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:background="#EEFFFFFF"
+                        tools:layout_editor_absoluteX="216dp"
+                        tools:layout_editor_absoluteY="357dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="159dp"
+                                android:layout_height="52dp"
+                                android:text="APLB Retinol Vitamin C &amp; Vitamin E Body Lotion 300ml Rs 15,590"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.545"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.8"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.977"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imageView39"
+                                android:layout_width="146dp"
+                                android:layout_height="151dp"
+                                android:src="@drawable/new_project_2025_05_13t110148_948"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.018"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/textView79"
+                                android:layout_width="94dp"
+                                android:layout_height="17dp"
+                                android:text="Out of stock"
+                                android:textColor="#F44336"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.05"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.97"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

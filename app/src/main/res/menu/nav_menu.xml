@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Search"
+            android:icon="@drawable/outline_search_24"
+            android:title="Search"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_FaceCare"
+            android:icon="@drawable/outline_cleaning_24"
+            android:title="Face Care"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_BodyCare"
+            android:icon="@drawable/outline_bookmark_heart_24"
+            android:title="Body Care"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_MakeUp"
+            android:icon="@drawable/outline_masks_24"
+            android:title="MakeUp"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_Privacy"
+            android:icon="@drawable/outline_privacy_tip_24"
+            android:title="Privacy Policy"
+            tools:ignore="HardcodedText" />
+    </group>
+
+</menu>

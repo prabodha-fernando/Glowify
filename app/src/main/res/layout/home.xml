@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="@color/pink"
+        android:textSize="36dp"
+        tools:ignore="HardcodedText,SpUsage,TextContrastCheck,VisualLintOverlap" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7FBF9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="371dp"
+                android:layout_height="81dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/bottomNavigation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        app:labelVisibilityMode="labeled"
+                        app:menu="@menu/bottom_menu"
+                        tools:ignore="MissingConstraints,VisualLintBottomNav">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fab2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/pink"
+                                android:src="@drawable/outline_add_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:maxImageSize="40dp"
+                                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#3FC591A3">
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="357dp"
+                android:layout_height="67dp"
+                android:backgroundTint="#3FC591A3"
+                android:text="    Search Product"
+                android:textAlignment="textStart"
+                android:textColor="#703A3737"
+                android:textColorLink="#3C3636"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:strokeColor="#44373131"
+                app:strokeWidth="1dp"
+                tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize"
+                tools:layout_editor_absoluteY="141dp" />
+
+            <SearchView
+                android:layout_width="26dp"
+                android:layout_height="24dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="165dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton47"
+            android:layout_width="37dp"
+            android:layout_height="33dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_contact_support_24"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="321dp"
+            tools:layout_editor_absoluteY="766dp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Care"
+            tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap"
+            tools:layout_editor_absoluteX="257dp"
+            tools:layout_editor_absoluteY="766dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="766dp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Up"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="766dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="591dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunscreens"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="591dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="342dp"
+            tools:layout_editor_absoluteY="591dp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Moisturizers"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="257dp"
+            tools:layout_editor_absoluteY="591dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="20dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Serums"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:allowUndo="true"
+            android:text="Cosmetics"
+            android:textColor="#121111"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteY="221dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="96dp"
+            android:layout_height="38dp"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="Glowify"
+            android:textAlignment="center"
+            android:textColor="#373030"
+            android:textSize="24sp"
+            tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/cleanser"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Cleansers"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_chevron_right_24"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="333dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:layout_marginEnd="240dp"
+            android:src="@drawable/serums_toners"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:src="@drawable/moisturizers"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/sunscreens"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/makeup"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:layout_editor_absoluteY="623dp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="132dp"
+            android:layout_height="143dp"
+            android:src="@drawable/bodycare"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="623dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

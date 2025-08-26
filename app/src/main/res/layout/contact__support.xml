@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7FBF9"
+    tools:context=".Contact_Support" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="124dp"
+            android:layout_height="29dp"
+            android:foregroundTint="#E91E63"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="Need Help?"
+            android:textAlignment="center"
+            android:textColor="#C88A2F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.233"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.134"
+            tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="347dp"
+            android:layout_height="82dp"
+            android:backgroundTint="#3FC591A3"
+            android:text="Send us a message and our admin team will get back to you within 24 hours."
+            android:textAlignment="textStart"
+            android:textColor="#C88A2F"
+            android:textColorLink="#3C3636"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.176"
+            app:strokeColor="#44373131"
+            app:strokeWidth="1dp"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="205dp"
+            android:layout_height="36dp"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="Contact Admin"
+            android:textAlignment="center"
+            android:textColor="#373030"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/outline_help_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout6"
+            android:layout_width="348dp"
+            android:layout_height="438dp"
+            android:background="#38DB5A86"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.521"
+            tools:ignore="TextSizeCheck">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter a valid email address."
+                    android:textColor="#9D332C2C"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.134"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.394"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="319dp"
+                    android:layout_height="101dp"
+                    android:autoLink="email"
+                    android:backgroundTint="#49FFFFFF"
+                    android:text="Type your message here... (minimum 10  characters)"
+                    android:textAlignment="textStart"
+                    android:textColor="#703A3737"
+                    android:textColorLink="#3C3636"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.872"
+                    app:strokeColor="#44373131"
+                    app:strokeWidth="1dp"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Message *"
+                    android:textColor="#555555"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.058"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.653"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="326dp"
+                    android:layout_height="40dp"
+                    android:autoLink="email"
+                    android:backgroundTint="#49FFFFFF"
+                    android:text="What is this message about?"
+                    android:textAlignment="textStart"
+                    android:textColor="#703A3737"
+                    android:textColorLink="#3C3636"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.571"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547"
+                    app:strokeColor="#44373131"
+                    app:strokeWidth="1dp"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Subject *"
+                    android:textColor="#555555"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 characters (minimum 10 requires)"
+                    android:textColor="#9D332C2C"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.857"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.944"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="320dp"
+                    android:layout_height="47dp"
+                    android:autoLink="email"
+                    android:backgroundTint="#49FFFFFF"
+                    android:text="Enter your email address"
+                    android:textAlignment="textStart"
+                    android:textColor="#703A3737"
+                    android:textColorLink="#3C3636"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.301"
+                    app:strokeColor="#44373131"
+                    app:strokeWidth="1dp"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Email Address *"
+                    android:textColor="#555555"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.068"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.23"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="320dp"
+                    android:layout_height="47dp"
+                    android:backgroundTint="#49FFFFFF"
+                    android:text="Enter your full name"
+                    android:textAlignment="textStart"
+                    android:textColor="#703A3737"
+                    android:textColorLink="#3C3636"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.571"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.097"
+                    app:strokeColor="#44373131"
+                    app:strokeWidth="1dp"
+                    tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="Full Name *"
+                    android:textColor="#555555"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.06"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.038"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="281dp"
+            android:layout_height="47dp"
+            android:backgroundTint="#B87A18"
+            android:insetLeft="0dp"
+            android:insetTop="2dp"
+            android:insetBottom="2dp"
+            android:text="Send Message"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.814"
+            tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="39dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#B87A18"
+            android:src="@android:drawable/ic_menu_send"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.815"
+            tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout7"
+            android:layout_width="349dp"
+            android:layout_height="111dp"
+            android:background="#11FFC107"
+            android:backgroundTint="#DCFFC107"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints,VisualLintBounds"
+            tools:layout_editor_absoluteY="775dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="322dp"
+                    android:layout_height="38dp"
+                    android:text="      Your information will be kept secure and confidential."
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.78"
+                    tools:ignore="HardcodedText,TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="322dp"
+                    android:layout_height="44dp"
+                    android:text="      Our admin team typically responds within 24  hours during business days."
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.592"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.179"
+                    tools:ignore="HardcodedText,TextSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="20dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/outline_mark_email_unread_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.036"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.168"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/outline_lock_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.036"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.64"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F7FBF9"
+            android:src="@drawable/outline_arrow_left_alt_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.064"
+            tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

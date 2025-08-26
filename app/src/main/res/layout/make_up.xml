@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeUp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="912dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F7FBF9">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottonNavigationView"
+                android:layout_width="364dp"
+                android:layout_height="81dp"
+                android:layout_marginBottom="16dp"
+                android:background="#3FC591A3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/botton_nav_menu">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/bottom_menu"
+                    tools:ignore="VisualLintBottomNav">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/pink"
+                            android:src="@drawable/outline_add_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:maxImageSize="40dp"
+                            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.bottomnavigation.BottomNavigationView>
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F8F7FBF9"
+                android:src="@drawable/outline_contact_support_24"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.64"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:password="false"
+                android:phoneNumber="false"
+                android:text="Glowify"
+                android:textAlignment="center"
+                android:textColor="#373030"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.619"
+                tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextViewEdits,TextSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F8F7FBF9"
+                android:src="@drawable/outline_arrow_left_alt_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.063"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.061"
+                tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="411dp"
+                android:layout_height="646dp"
+                android:background="#1FFFC107"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:allowUndo="true"
+                        android:text="MakeUp"
+                        android:textColor="#121111"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.093"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.026"
+                        tools:ignore="HardcodedText,MissingConstraints" />
+
+                    <FrameLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:background="#DAFFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/constraintLayout2"
+                        app:layout_constraintHorizontal_bias="0.638"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.179"
+                        tools:ignore="TextSizeCheck" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button33"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.928"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.995"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView90"
+                                android:layout_width="62dp"
+                                android:layout_height="25dp"
+                                android:text="In stock"
+                                android:textColor="#4CAF50"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.062"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.962"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="156dp"
+                                android:layout_height="67dp"
+                                android:text="CLINIQUE Superdefense City Block SPF 50 Facial Sunscreen + Primer Rs3,990  Rs 4889"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.8"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/textView89"
+                                android:layout_width="52dp"
+                                android:layout_height="29dp"
+                                android:text="________"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.605"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/imageView32"
+                                app:layout_constraintVertical_bias="0.85"
+                                tools:ignore="HardcodedText" />
+
+                            <ImageView
+                                android:id="@+id/imageView32"
+                                android:layout_width="131dp"
+                                android:layout_height="156dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                app:srcCompat="@drawable/s2313757_main_zoom" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.959"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.009"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/textView91"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#80FF0909"
+                                android:text="10% OFF"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView90"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.06"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.068"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </FrameLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="#EEFFFFFF"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:layout_editor_absoluteY="69dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="172dp"
+                            android:layout_height="263dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="160dp"
+                                android:layout_height="66dp"
+                                android:text="Original Huda Beauty Textured Rose Gold Edition Eye Shadow Plate Rs 1,700 "
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.811"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="72dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.928"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView79"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Out of stock"
+                                android:textColor="#F44336"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.036"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.97"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <ImageView
+                                android:id="@+id/imageView33"
+                                android:layout_width="138dp"
+                                android:layout_height="153dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                app:srcCompat="@drawable/img" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3"
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:layout_marginTop="356dp"
+                        android:background="#EEFFFFFF"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="30dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="169dp"
+                            android:layout_height="261dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="159dp"
+                                android:layout_height="52dp"
+                                android:text="Pink Peony Multistick - HAN Skincare Cosmetics Rs 3,390 "
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.545"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.78"
+                                tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="74dp"
+                                android:layout_height="41dp"
+                                android:backgroundTint="#B87A18"
+                                android:text="Buy"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.957"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.972"
+                                tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView79"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="In stock"
+                                android:textColor="#4CAF50"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.071"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/imageButton22"
+                                app:layout_constraintVertical_bias="0.962"
+                                tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imageView34"
+                                android:layout_width="145dp"
+                                android:layout_height="150dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                app:srcCompat="@drawable/img1" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="49dp"
+                                android:layout_height="45dp"
+                                android:backgroundTint="#C0FFFFFF"
+                                android:src="@drawable/ic_baseline_shopping_cart_24"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="262dp"
+                        android:background="#EEFFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.9"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.927">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="159dp"
+                            android:layout_height="52dp"
+                            android:text="Light Pink 10 Pcs Makeup Brush set for beginners Rs 5,590 "
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.545"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.776"
+                            tools:ignore="DuplicateIds,HardcodedText,TextSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="64dp"
+                            android:layout_height="28dp"
+                            android:text="In stock"
+                            android:textColor="#43A047"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.098"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.987"
+                            tools:ignore="DuplicateIds,HardcodedText" />
+
+                        <Button
+                            android:id="@+id/button35"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:backgroundTint="#B87A18"
+                            android:text="Buy"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.948"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.986"
+                            tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <ImageView
+                            android:id="@+id/imageView35"
+                            android:layout_width="123dp"
+                            android:layout_height="154dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.509"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/hba7c9579ae48419f926179f9d4aa4300o" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton44"
+                            android:layout_width="49dp"
+                            android:layout_height="45dp"
+                            android:backgroundTint="#C0FFFFFF"
+                            android:src="@drawable/ic_baseline_shopping_cart_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            tools:ignore="ContentDescription,DuplicateIds,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

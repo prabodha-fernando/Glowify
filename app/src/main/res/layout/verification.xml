@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7FBF9">
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="327dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="By continuing, you agree to our Terms of Services and Privacy Policy"
+        android:textAlignment="center"
+        android:textColor="#D3AE37"
+        android:textColorHighlight="#D3AE36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_____________________________________________________"
+        android:textColor="#0277BD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,VisualLintBounds"
+        tools:layout_editor_absoluteY="842dp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wait 00:59"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="715dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend Code"
+        android:textColor="#AE555555"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit mobile number or email"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="715dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Information"
+        android:textColor="#C88A2F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#B87A18"
+        android:insetLeft="0dp"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:text="Verify OTP"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We’ve sent a verification code to +94 7******* "
+        android:textColor="#555555"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="347dp"
+        android:layout_height="38dp"
+        android:lines="1"
+        android:text="VERIFY YOUR ACCOUNT"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_wrapBehaviorInParent="skipped"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="true"
+        android:text="CREATE ACCOUNT"
+        android:textColor="#121111"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your whatsapp code"
+        android:textColor="#555555"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/glowify_brand_logo_design_2"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="96dp"
+        android:layout_height="38dp"
+        android:password="false"
+        android:phoneNumber="false"
+        android:text="Register"
+        android:textColor="#373030"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Deprecated,HardcodedText,MissingConstraints,TextSizeCheck,TextViewEdits"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#F4EFEF"
+        app:strokeColor="#5F040404"
+        app:strokeWidth="1sp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="#F8F7FBF9"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="59dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

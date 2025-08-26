@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Glowify" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/pink</item>
+        <item name="android:statusBarColor">@color/pink</item>
+        <item name="android:actionBarSize">70dp</item>
+
+
+    </style>
+
+    <style name="Theme.Glowify" parent="Base.Theme.Glowify" />
+</resources>
